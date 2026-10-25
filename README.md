@@ -42,7 +42,7 @@ This repository contains a low-code machine learning notebook built on the Calif
 | Ridge Regression | 10.0 | 0.6443 |
 | Ridge Regression | 1000.0 | 0.3574 |
 
-![Model comparison chart](chart.png)
+
 
 ## Findings
 
