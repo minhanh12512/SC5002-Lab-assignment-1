@@ -15,7 +15,7 @@ This repository contains a low-code machine learning notebook built on the Calif
 
 | File | Description |
 |---|---|
-| `SC5002_ML_Notebook.ipynb` | Google Colab notebook with the code and outputs |
+| `SC5002_Lab_Assignment_1.ipynb` | Google Colab notebook with the code and outputs |
 | `README.md` | Project documentation, setup and findings |
 
 ## Methodology & Setup
