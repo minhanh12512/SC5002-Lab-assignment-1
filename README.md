@@ -1,12 +1,11 @@
 # SC5002 Lab Assignment: Linear vs Ridge Regression
 
-**Author:** Ho Thi Minh Anh (Kylie)
+**Author:** Ho Thi Minh Anh 
+
 **Course:** SC5002 Artificial Intelligence Fundamentals & Applications, Nanyang Technological University
+
 **Semester:** 2026 Semester 1
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO/blob/main/SC5002_ML_Notebook.ipynb)
-
-Video presentation: [link to video]
 
 ## Project Overview
 
@@ -18,8 +17,6 @@ This repository contains a low-code machine learning notebook built on the Calif
 |---|---|
 | `SC5002_ML_Notebook.ipynb` | Google Colab notebook with the code and outputs |
 | `README.md` | Project documentation, setup and findings |
-| `chart.png` | Bar chart comparing the models' cross-validation scores |
-| `Report.pdf` | Full assignment report: Part 1 calculations, Part 2 results and AI prompt logs |
 
 ## Methodology & Setup
 
@@ -70,6 +67,3 @@ print(f"Ridge Regression (alpha={a:6.1f}) Mean 5-Fold R2 Score: {scores.mean():.
 - The 20% test set (`X_test`) is held out but never evaluated in the template; all scores come from cross-validation on the training set.
 - `StandardScaler` is fitted on the full 1,000-row sample before the train/test split (`X_scaled = scaler.fit_transform(X)`), which leaks a small amount of information from the test set into training. Fitting the scaler inside a `Pipeline` would avoid this.
 
-## AI Use
-
-Generative AI was used to debug code, explain concepts such as the bias-variance trade-off, and review the report and this README. AI claims were checked against the notebook's actual results. Cases where the AI's general explanations did not match the cross-validation scores are discussed in the AI prompt logs in `Report.pdf`.
